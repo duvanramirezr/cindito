@@ -1,7 +1,29 @@
 body {
-  background-image: url("../css/img/fondo.jpg");
-}
-.navbar-custom {
-  background-color: #51ff00;
+    background-image: url("../css/img/fondo.jpg");
 }
 
+.navbar-custom {
+    background-color: #e2ffd5d3;
+}
+
+.carousel-inner,
+.img-carousel {
+    max-height: 500px;
+}
+
+.border1 {
+    background-color: blueviolet;
+    padding-block: 10px;
+}
+
+.border2 {
+    background-color: chocolate;
+}
+
+.trofeo {
+    height: 700px;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}

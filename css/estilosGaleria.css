@@ -1,0 +1,44 @@
+body {
+    background-image: url("/img/fondo.jpg");
+}
+
+.navbar-custom {
+    background-color: #e2ffd5d3;
+}
+
+.carousel-inner,
+.img-carousel {
+    max-height: 500px;
+}
+
+.border1 {
+    background-color: blueviolet;
+    padding-block: 10px;
+}
+
+.border2 {
+    background-color: chocolate;
+}
+
+.trofeo {
+    height: 700px;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.row {
+    margin: 15px;
+}
+
+.titulos {
+    color: honeydew;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.parrafo {
+    color: honeydew;
+    text-align: justify;
+}

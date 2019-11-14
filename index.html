@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="CSS\estilos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <title>Proyecto Cindito</title>
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-lg py-3 navbar-light shadow-sm navbar-custom"
-    >
-      <div class="container">
-        <a href="#" class="navbar-brand">
-          <!-- Logo Image -->
-          <img
-            src="https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png"
-            width="45"
-            alt=""
-            class="d-inline-block align-middle mr-2"
-          />
-          <!-- Logo Text -->
-          <span class="text-uppercase font-weight-bold"
-            >Soacha a la Cancha</span
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg py-3 navbar-light shadow-sm navbar-custom d-xs-none">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="css\img\logo.png" width="60" alt="" class="d-inline-block align-middle mr-2" />
+                <!-- Logo Text -->
+                <span class="text-uppercase font-weight-bold">Soacha a la Cancha</span
           >
         </a>
 
@@ -44,57 +36,63 @@
           class="navbar-toggler"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+                </button>
 
-        <div id="navbarSupportedContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="#" class="nav-link"
-                >Inicio<span class="sr-only">(current)</span></a
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Inicio<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Importancia </a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Acerca</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Inscribete</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="row">
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
+                        </li>
+                        <li class="nav-item"><a href="acerca.html" class="nav-link">Acerca</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Inscribete</a>
+                            <li class="nav-item"><a href="galeria.html" class="nav-link">galeria</a>
 
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="css\img\foto1.jpg" alt="Los Angeles" />
-          </div>
-          <div class="carousel-item">
-            <img src="css\img\foto2.jpg" alt="Chicago" />
-          </div>
-          <div class="carousel-item">
-            <img src="css\img\foto3.jpg" alt="New York" />
-          </div>
+                            </li>
+                    </ul>
+                </div>
         </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
+    </nav>
+
+    <div class="container-fluid   d-block d-xs-block d-sm-none ">
+        <div class="row">
+
+            <div class=" col-lg-3 d-none d-lg-block  ">
+                <img class="trofeo" src="css\img\copa.png" alt="trofeo">
+            </div>
+
+            <div class=" col-lg-6 d-md-block text-center  ">
+
+
+                <button type="button" class="btn btn-primary btn-lg btn-block">Importancia del deporte</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Sobre el club</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Inscribite</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block">proyectos</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Galeria</button>
+
+
+
+            </div>
+            <div class="col-lg-3 d-none d-lg-block ">
+
+            </div>
+
+
+        </div>
+
     </div>
-  </body>
+
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Your Website</small>
+        </div>
+    </footer>
+</body>
+
+
 </html>
