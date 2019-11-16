@@ -14,55 +14,57 @@
     <title>Proyecto Cindito</title>
 </head>
 
-<body>
+<body class="d-flex flex-column">
+    <header>
+        <nav class="navbar navbar-expand-lg py-3 navbar-light shadow-sm navbar-custom d-xs-none">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <!-- Logo Image -->
+                    <img src="img\logo.png" width="60" alt="" class="d-inline-block align-middle mr-2" />
+                    <!-- Logo Text -->
+                    <span class="text-uppercase font-weight-bold">Soacha a la Cancha</span
+                  >
+                </a>
+        
+                <button
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  class="navbar-toggler"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <nav class="navbar navbar-expand-lg py-3 navbar-light shadow-sm navbar-custom d-xs-none">
-        <div class="container">
-            <a href="#" class="navbar-brand">
-                <!-- Logo Image -->
-                <img src="css\img\logo.png" width="60" alt="" class="d-inline-block align-middle mr-2" />
-                <!-- Logo Text -->
-                <span class="text-uppercase font-weight-bold">Soacha a la Cancha</span
-          >
-        </a>
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">Inicio<span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Importancia </a>
+                            </li>
+                            <li class="nav-item"><a href="acerca.html" class="nav-link">Acerca</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+                            <li class="nav-item"><a href="inscribete.html" class="nav-link">Inscribete</a>
 
-        <button
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          class="navbar-toggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a href="index.html" class="nav-link">Inicio<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Importancia </a>
-                        </li>
-                        <li class="nav-item"><a href="acerca.html" class="nav-link">Acerca</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Inscribete</a>
-                            <li class="nav-item"><a href="galeria.html" class="nav-link">galeria</a>
 
                             </li>
-                    </ul>
-                </div>
-        </div>
-    </nav>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
 
     <div class="container-fluid   d-block d-xs-block d-sm-none ">
         <div class="row">
 
             <div class=" col-lg-3 d-none d-lg-block  ">
-                <img class="trofeo" src="css\img\copa.png" alt="trofeo">
+                <img class="trofeo" src="img\copa.png" alt="trofeo">
             </div>
 
             <div class=" col-lg-6 d-md-block text-center  ">
@@ -86,12 +88,17 @@
 
     </div>
 
-
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+
         <div class="container text-center">
-            <small>Copyright &copy; Your Website</small>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="logoFoot" src="img\logo.png" alt="">
+                </div>
+            </div>
         </div>
     </footer>
+
 </body>
 
 

@@ -1,5 +1,5 @@
 body {
-    background-image: url("../css/img/fondo.jpg");
+    background-image: url("/img/fondo.jpg");
 }
 
 .navbar-custom {
@@ -12,8 +12,9 @@ body {
 }
 
 .border1 {
-    background-color: blueviolet;
+    background-color: rgba(212, 211, 212, 0.548);
     padding-block: 10px;
+    border-radius: 10px;
 }
 
 .border2 {
@@ -24,6 +25,29 @@ body {
     height: 700px;
 }
 
+.logoFoot {
+    height: 50px;
+}
+
 #sticky-footer {
     flex-shrink: none;
+}
+
+.letraForm {
+    color: black;
+    size: 28pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+.formInscripcion {
+    padding-top: 20px;
 }
