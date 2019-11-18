@@ -1,53 +1,82 @@
-body {
-    background-image: url("/img/fondo.jpg");
-}
-
-.navbar-custom {
-    background-color: #e2ffd5d3;
-}
-
-.carousel-inner,
-.img-carousel {
-    max-height: 500px;
-}
-
-.border1 {
-    background-color: rgba(212, 211, 212, 0.548);
-    padding-block: 10px;
-    border-radius: 10px;
-}
-
-.border2 {
-    background-color: chocolate;
-}
-
-.trofeo {
-    height: 700px;
-}
-
-.logoFoot {
-    height: 50px;
-}
-
-#sticky-footer {
-    flex-shrink: none;
-}
-
-.letraForm {
-    color: black;
-    size: 28pt;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-footer {
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-}
-
-.formInscripcion {
-    padding-top: 20px;
-}
+    body {
+        background-image: url("/img/fondo.jpg");
+    }
+    
+    .navbar-custom {
+        background-color: #e0dd10d3;
+    }
+    
+    .carousel-inner,
+    .img-carousel {
+        max-height: 500px;
+    }
+    
+    .textoImp {
+        max-width: 400px;
+    }
+    
+    .border1 {
+        background-color: rgba(212, 211, 212, 0.7);
+        padding-block: 10px;
+        border-radius: 10px;
+    }
+    
+    .border2 {
+        background-color: chocolate;
+    }
+    
+    .trofeo {
+        height: 700px;
+    }
+    
+    .logoFoot {
+        height: 50px;
+    }
+    
+    .letraForm {
+        color: black;
+        size: 28pt;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    
+    .formInscripcion {
+        padding-top: 20px;
+    }
+    
+    .parrafo {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        background-color: rgba(247, 247, 247, 0.7);
+        padding-inline: 10px;
+        font-family: texto;
+    }
+    
+    .fila {
+        padding-top: 10px;
+    }
+    
+    .imgIzq2 {
+        max-width: 40%;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .imgDer2 {
+        max-width: 80%;
+        position: sticky;
+        margin-left: 200px;
+    }
+    
+    .titulitos {
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+    .fontText {
+        font-family: texto;
+    }
+    
+    @font-face {
+        font-family: texto;
+        src: url(Fonts\HelveticaNeueMedium.ttf)
+    }

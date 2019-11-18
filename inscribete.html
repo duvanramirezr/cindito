@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+
     <link rel="stylesheet" href="CSS\estilos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS\footer.css" />
     <title>Proyecto Cindito</title>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg py-3 navbar-light shadow-sm navbar-custom d-xs-none">
         <div class="container">
             <a href="#" class="navbar-brand">
@@ -40,18 +42,19 @@
 
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a href="index.html" class="nav-link">Inicio<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Importancia </a>
+              <a href="Importancia.html" class="nav-link">Importancia </a>
                         </li>
-                        <li class="nav-item"><a href="acerca.html" class="nav-link">Acerca</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Inscribete</a>
-
-
+                        <li class="nav-item">
+                            <a href="acerca.html" class="nav-link">Acerca</a>
+                        </li>
+                        <li class="nav-item"><a href="proyectos.html" class="nav-link">Proyectos</a></li>
+                        <li class="nav-item active ">
+                            <a href="inscribete.html" class="nav-link">Inscribete</a>
                         </li>
                     </ul>
                 </div>
@@ -59,43 +62,90 @@
     </nav>
 
     <div class="container-fluid ">
-
         <div class="row justify-content-md-center formInscripcion  ">
-
+            <div class="col-lg-3 d-none d-lg-block ">
+                <img class=" img-fluid imgIzq " src="img\deportivo6.png" alt="" />
+            </div>
             <div class="col-md-6 border1 ">
-                <h1>Formulario de inscripcion</h1>
+                <h1 class="titulitos">Formulario de inscripcion</h1>
                 <p class="description">Por favor ingrese todos los datos</p>
                 <!-- Input fields -->
                 <form class="form-group mx-sm-4 mb-4 font-weight-bold" action="">
-                    <label for="Nombre" class="mr-sm-3 letraForm" placeholder="Nombre">Nombre:</label>
-                    <input type="email" class="form-control mb-2 mr-sm-2" id="email">
+                    <label for="Nombres y Apellidos completos" class="mr-sm-3 letraForm" placeholder="Nombres y apellidos completos">Nombres y Apellidos completos:</label
+            >
+            <input type="email" class="form-control mb-2 mr-sm-2" id="email" />
 
-                    <label for="Documento" class="mr-sm-3 letraForm" placeholder="Documento Identidad">Documento Identidad:</label>
-                    <input type="password" class="form-control mb-2 mr-sm-2" id="pwd">
+            <label
+              for="Documento"
+              class="mr-sm-3 letraForm"
+              placeholder="Documento Identidad"
+              >Documento Identidad:</label
+            >
+            <input type="password" class="form-control mb-2 mr-sm-2" id="pwd" />
 
-                    <label for="email" class="mr-sm-3 letraForm" placeholder="Email">Email:</label>
-                    <input type="email" class="form-control mb-2 mr-sm-2" id="email">
+            <label for="email" class="mr-sm-3 letraForm" placeholder="Email"
+              >Email:</label
+            >
+            <input type="email" class="form-control mb-2 mr-sm-2" id="email" />
 
-                    <label for="Direccion" class="mr-sm-3 letraForm" placeholder="Direccion">Direccion:</label>
-                    <input type="Direccion" class="form-control mb-2 mr-sm-2" id="pwd">
+            <label
+              for="Direccion"
+              class="mr-sm-3 letraForm"
+              placeholder="Direccion"
+              >Direccion:</label
+            >
+            <input
+              type="Direccion"
+              class="form-control mb-2 mr-sm-2"
+              id="pwd"
+            />
+            <label
+              for="Acudiente"
+              class="mr-sm-3 letraForm"
+              placeholder="Acudiente"
+              >Acudiente:</label
+            >
+            <input
+              type="Acudiente"
+              class="form-control mb-2 mr-sm-2"
+              id="Acudiente"
+            />
 
+            <label
+              for="Parentezco"
+              class="mr-sm-3 letraForm"
+              placeholder="Parentezco"
+              >Parentezco:</label
+            >
+            <input
+              type="Parentezco"
+              class="form-control mb-2 mr-sm-2"
+              id="pwd"
+            />
 
-                    <button type="submit" class="btn btn-primary mb-2">Enviar</button>
-                </form>
-            </div>
-
-
+            <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+          </form>
         </div>
-
-
+        <div class="col-lg-3 d-none d-lg-block ">
+          <img class=" img-fluid imgIzq" src="img\deportivo4.png" alt="" />
+        </div>
+      </div>
     </div>
+    <footer id="sticky-footer" class=" ">
 
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>Copyright &copy; Your Website</small>
+        <div class="row text-center espacio">
+            <div class="col-4">
+                <img class="logofooter" src="img\Logocanchapeque.png" alt="">
+            </div>
+            <div class="col-4"> <span class="text-uppercase font-weight-bold titulitos display-4">Soacha a la cancha</span></div>
+            <div class="col-4">
+
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+
+            </div>
         </div>
     </footer>
-</body>
-
-
+  </body>
 </html>
